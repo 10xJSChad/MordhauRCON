@@ -15,4 +15,7 @@ def sendCommand(command):
 def parseChat(input, allowedFrom):
  global allowed  
  if(allowedFrom != allowed): return
+ 
+ #Custom commands can go here
+ 
  print(input)
